@@ -38,6 +38,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Use for Jambase Api
+gem 'madcowley-jambase4r'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
