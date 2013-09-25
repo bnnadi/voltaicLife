@@ -1,4 +1,5 @@
 VoltaicLife::Application.routes.draw do
+  get "search/index"
   get "welcome/index"
   devise_for :users
   resources :statuses

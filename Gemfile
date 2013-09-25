@@ -3,14 +3,18 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 gem 'devise'
 gem 'simple_form'
-gem 'country_select'
-gem 'protected_attributes'
 gem 'paperclip', '~> 3.0'
-gem 'http'
+gem 'protected_attributes'
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem "pg"
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -39,7 +43,7 @@ group :doc do
 end
 
 # Use for Jambase Api
-gem 'madcowley-jambase4r'
+gem "madcowley-jambase4r", "~> 1.1.3"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -30,4 +30,5 @@ VoltaicLife::Application.configure do
    
    # To add inmage submission 
    Paperclip.options[:command_path] = "/usr/local/bin/"
+
 end

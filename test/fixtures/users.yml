@@ -1,7 +1,11 @@
-bisike:
-    first_name: 'Bisike'
-    last_name: 'Nnadi'
-    email: 'bisike.nnadi@gmail.com'
-    profile_name: 'bisike'
-    password: 'password'
-    password_confirmation: 'password'
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+#  column: value
