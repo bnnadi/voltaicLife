@@ -10,6 +10,7 @@ gem 'simple_form'
 gem 'country_select'
 gem 'protected_attributes'
 gem 'paperclip', '~> 3.0'
+gem 'http'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

@@ -1,7 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong><%= @status.user.first_name %></strong>
+  <%= image_tag @user.avatar.url(:thumb) %>
+  <strong><%= @status.user.user_id %></strong>
 </p>
 
 <p>
